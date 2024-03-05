@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "to validate the login functionality of fb application",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-the-login-functionality-of-fb-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33640837400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "to launch the chrome browser and window maximize",
+            "match": {
+              "location": "fbjava.to_launch_the_chrome_browser_and_window_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8833553900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "to launch the fb url",
+            "match": {
+              "location": "fbjava.to_launch_the_fb_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2654157300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "to pass the email in email field",
+            "match": {
+              "location": "fbjava.to_pass_the_email_in_email_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email 1",
+                  "balaji"
+                ]
+              },
+              {
+                "cells": [
+                  "email 2",
+                  "sibi"
+                ]
+              },
+              {
+                "cells": [
+                  "email 3",
+                  "sudha"
+                ]
+              },
+              {
+                "cells": [
+                  "email 4",
+                  "svdcj"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1020053500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "to pass the password in password field",
+            "match": {
+              "location": "fbjava.to_pass_the_password_in_password_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password 1",
+                  "password 2",
+                  "password 3"
+                ]
+              },
+              {
+                "cells": [
+                  "uejhdb",
+                  ",ujewmhed",
+                  "jmfbkhj"
+                ]
+              },
+              {
+                "cells": [
+                  ",kjmhrfbkj",
+                  ",kjmf,kjh",
+                  "jhdfnhhb"
+                ]
+              },
+              {
+                "cells": [
+                  "mdhnhfjh",
+                  "dmnfg",
+                  "d,ufjh"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1717015200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "fbjava.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "to validate the login functionality of fb application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-fb-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample.feature",
+    "tags": []
+  }
+]
